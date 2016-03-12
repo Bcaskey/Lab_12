@@ -1,0 +1,13 @@
+.container {
+    padding: 8px;
+    margin: auto;
+}
+
+.text_label_style {
+    width: 500px;
+}
+
+.text_box_style {
+    width: 500px;
+    height: 500px;
+}

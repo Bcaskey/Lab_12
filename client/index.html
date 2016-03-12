@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MyTweets</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+	</head>
+	<body>
+		<!--format html below-->
+		
+        <div class="container">
+            <h1>hey, twitter, I'm mocking you...</h1>
+            <p></p>
+            <form name="myTweet" class="myForm">
+                <p>
+                <label>Type here...</label><br>
+				<input type="text"  class="text_label_style" id="tweetContent">
+                </p>
+                <p><label>Read here...</label><br>
+				<textarea class="text_box_style" id="messageBox"></textarea>
+                </p>
+                <p>
+                <input type="submit" class="submit_btn" value="Send" id="submit" onClick="postData()">
+                </p>
+		  	</form>
+        </div>
+
+		<script src="components/jquery/dist/jquery.min.js"></script>
+		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!--linking code from main js-->
+		<script src="js/main.js"></script>
+	</body>
+</html>
