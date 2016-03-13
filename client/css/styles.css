@@ -4,7 +4,11 @@
 }
 
 .text_label_style {
-    width: 500px;
+    width: 420px;
+}
+
+.text_user_style {
+    width: 80px;
 }
 
 .text_box_style {
